@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "BAF1EE051D9B72EB00D0DE16"
+               BlueprintIdentifier = "BA3C9BDD1D9D010B004477F9"
                BuildableName = "lepaoquan.app"
                BlueprintName = "lepaoquan"
                ReferencedContainer = "container:lepaoquan.xcodeproj">
@@ -32,7 +32,7 @@
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "BAF1EE1C1D9B72EC00D0DE16"
+               BlueprintIdentifier = "BA3C9BF41D9D010B004477F9"
                BuildableName = "lepaoquanTests.xctest"
                BlueprintName = "lepaoquanTests"
                ReferencedContainer = "container:lepaoquan.xcodeproj">
@@ -42,7 +42,7 @@
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "BAF1EE271D9B72EC00D0DE16"
+               BlueprintIdentifier = "BA3C9BFF1D9D010B004477F9"
                BuildableName = "lepaoquanUITests.xctest"
                BlueprintName = "lepaoquanUITests"
                ReferencedContainer = "container:lepaoquan.xcodeproj">
@@ -52,7 +52,7 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "BAF1EE051D9B72EB00D0DE16"
+            BlueprintIdentifier = "BA3C9BDD1D9D010B004477F9"
             BuildableName = "lepaoquan.app"
             BlueprintName = "lepaoquan"
             ReferencedContainer = "container:lepaoquan.xcodeproj">
@@ -75,7 +75,7 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "BAF1EE051D9B72EB00D0DE16"
+            BlueprintIdentifier = "BA3C9BDD1D9D010B004477F9"
             BuildableName = "lepaoquan.app"
             BlueprintName = "lepaoquan"
             ReferencedContainer = "container:lepaoquan.xcodeproj">
@@ -94,7 +94,7 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "BAF1EE051D9B72EB00D0DE16"
+            BlueprintIdentifier = "BA3C9BDD1D9D010B004477F9"
             BuildableName = "lepaoquan.app"
             BlueprintName = "lepaoquan"
             ReferencedContainer = "container:lepaoquan.xcodeproj">
