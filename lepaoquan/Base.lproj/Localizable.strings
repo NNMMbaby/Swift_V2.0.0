@@ -1,0 +1,15 @@
+//
+//  Localizable.strings
+//  BOOKKEEPING
+//
+//  Created by Jessica on 16/6/14.
+//  Copyright © 2016年 Jessica. All rights reserved.
+//
+
+// 登录页面
+"SignIn.SignInBtn" = "登录";
+"SignIn.UserNameTextField" = "手机/邮箱";
+"SignIn.PasswdTextField" = "密码";
+"SignIn.title" = "准备开始";
+"SignIn.SignUpItemBtn" = "注册";
+"SignIn.ForgotPasswdBtn" = "忘记了密码？";

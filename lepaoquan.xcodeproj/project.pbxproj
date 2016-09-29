@@ -7,15 +7,28 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		BA3C9BE21D9D010B004477F9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA3C9BE11D9D010B004477F9 /* AppDelegate.swift */; };
-		BA3C9BE41D9D010B004477F9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA3C9BE31D9D010B004477F9 /* ViewController.swift */; };
+		BA1B3C751D9D0D0D00B3F5F6 /* colors.txt in Resources */ = {isa = PBXBuildFile; fileRef = BA1B3C741D9D0D0D00B3F5F6 /* colors.txt */; };
 		BA3C9BE71D9D010B004477F9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BA3C9BE51D9D010B004477F9 /* Main.storyboard */; };
-		BA3C9BEA1D9D010B004477F9 /* lepaoquan.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = BA3C9BE81D9D010B004477F9 /* lepaoquan.xcdatamodeld */; };
 		BA3C9BEC1D9D010B004477F9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BA3C9BEB1D9D010B004477F9 /* Assets.xcassets */; };
 		BA3C9BEF1D9D010B004477F9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BA3C9BED1D9D010B004477F9 /* LaunchScreen.storyboard */; };
 		BA3C9BFA1D9D010B004477F9 /* lepaoquanTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA3C9BF91D9D010B004477F9 /* lepaoquanTests.swift */; };
 		BA3C9C051D9D010B004477F9 /* lepaoquanUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA3C9C041D9D010B004477F9 /* lepaoquanUITests.swift */; };
-		BAF964581D9D041900A310C4 /* colors.txt in Resources */ = {isa = PBXBuildFile; fileRef = BAF9644A1D9D041900A310C4 /* colors.txt */; };
+		BAA959D61D9D102E00A8FFD2 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = BAA959D31D9D102E00A8FFD2 /* Localizable.strings */; };
+		BAA959DB1D9D127800A8FFD2 /* JavaScriptCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BAA959DA1D9D127800A8FFD2 /* JavaScriptCore.framework */; };
+		BAA959DD1D9D130400A8FFD2 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BAA959DC1D9D130400A8FFD2 /* SystemConfiguration.framework */; };
+		BAA959DF1D9D130B00A8FFD2 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BAA959DE1D9D130B00A8FFD2 /* AVFoundation.framework */; };
+		BAA959E11D9D131B00A8FFD2 /* CoreMotion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BAA959E01D9D131B00A8FFD2 /* CoreMotion.framework */; };
+		BAA959E31D9D132300A8FFD2 /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BAA959E21D9D132300A8FFD2 /* OpenGLES.framework */; };
+		BAA959E51D9D132F00A8FFD2 /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BAA959E41D9D132F00A8FFD2 /* CoreMedia.framework */; };
+		BAA959E71D9D133800A8FFD2 /* CoreVideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BAA959E61D9D133800A8FFD2 /* CoreVideo.framework */; };
+		BAA959E91D9D134800A8FFD2 /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = BAA959E81D9D134800A8FFD2 /* libsqlite3.tbd */; };
+		BAA959EB1D9D134F00A8FFD2 /* CoreText.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BAA959EA1D9D134F00A8FFD2 /* CoreText.framework */; };
+		BAA959ED1D9D135700A8FFD2 /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BAA959EC1D9D135700A8FFD2 /* CoreTelephony.framework */; };
+		BAA959EF1D9D135E00A8FFD2 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BAA959EE1D9D135E00A8FFD2 /* Security.framework */; };
+		BAA959F11D9D136500A8FFD2 /* libz.1.2.5.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = BAA959F01D9D136500A8FFD2 /* libz.1.2.5.tbd */; };
+		BAA959F31D9D137500A8FFD2 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BAA959F21D9D137500A8FFD2 /* QuartzCore.framework */; };
+		BAA95A181D9D155700A8FFD2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAA95A161D9D155700A8FFD2 /* AppDelegate.swift */; };
+		BAA95A191D9D155700A8FFD2 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAA95A171D9D155700A8FFD2 /* BaseViewController.swift */; };
 		BAF964591D9D041900A310C4 /* ColorsDefine.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAF9644B1D9D041900A310C4 /* ColorsDefine.swift */; };
 		BAF9645A1D9D041900A310C4 /* ImageDefine.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAF9644C1D9D041900A310C4 /* ImageDefine.swift */; };
 		BAF9645B1D9D041900A310C4 /* LocalizableDefine.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAF9644D1D9D041900A310C4 /* LocalizableDefine.swift */; };
@@ -40,11 +53,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		BA1B3C741D9D0D0D00B3F5F6 /* colors.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = colors.txt; sourceTree = "<group>"; };
 		BA3C9BDE1D9D010B004477F9 /* lepaoquan.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = lepaoquan.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		BA3C9BE11D9D010B004477F9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		BA3C9BE31D9D010B004477F9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		BA3C9BE61D9D010B004477F9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		BA3C9BE91D9D010B004477F9 /* lepaoquan.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = lepaoquan.xcdatamodel; sourceTree = "<group>"; };
 		BA3C9BEB1D9D010B004477F9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BA3C9BEE1D9D010B004477F9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BA3C9BF01D9D010B004477F9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -54,7 +65,22 @@
 		BA3C9C001D9D010B004477F9 /* lepaoquanUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = lepaoquanUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BA3C9C041D9D010B004477F9 /* lepaoquanUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = lepaoquanUITests.swift; sourceTree = "<group>"; };
 		BA3C9C061D9D010B004477F9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		BAF9644A1D9D041900A310C4 /* colors.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = colors.txt; sourceTree = "<group>"; };
+		BAA959D41D9D102E00A8FFD2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = Base; path = Base.lproj/Localizable.strings; sourceTree = "<group>"; };
+		BAA959DA1D9D127800A8FFD2 /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
+		BAA959DC1D9D130400A8FFD2 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		BAA959DE1D9D130B00A8FFD2 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		BAA959E01D9D131B00A8FFD2 /* CoreMotion.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMotion.framework; path = System/Library/Frameworks/CoreMotion.framework; sourceTree = SDKROOT; };
+		BAA959E21D9D132300A8FFD2 /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
+		BAA959E41D9D132F00A8FFD2 /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		BAA959E61D9D133800A8FFD2 /* CoreVideo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreVideo.framework; path = System/Library/Frameworks/CoreVideo.framework; sourceTree = SDKROOT; };
+		BAA959E81D9D134800A8FFD2 /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
+		BAA959EA1D9D134F00A8FFD2 /* CoreText.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreText.framework; path = System/Library/Frameworks/CoreText.framework; sourceTree = SDKROOT; };
+		BAA959EC1D9D135700A8FFD2 /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
+		BAA959EE1D9D135E00A8FFD2 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		BAA959F01D9D136500A8FFD2 /* libz.1.2.5.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.1.2.5.tbd; path = usr/lib/libz.1.2.5.tbd; sourceTree = SDKROOT; };
+		BAA959F21D9D137500A8FFD2 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		BAA95A161D9D155700A8FFD2 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		BAA95A171D9D155700A8FFD2 /* BaseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
 		BAF9644B1D9D041900A310C4 /* ColorsDefine.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ColorsDefine.swift; sourceTree = "<group>"; };
 		BAF9644C1D9D041900A310C4 /* ImageDefine.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageDefine.swift; sourceTree = "<group>"; };
 		BAF9644D1D9D041900A310C4 /* LocalizableDefine.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocalizableDefine.swift; sourceTree = "<group>"; };
@@ -66,6 +92,19 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BAA959F31D9D137500A8FFD2 /* QuartzCore.framework in Frameworks */,
+				BAA959F11D9D136500A8FFD2 /* libz.1.2.5.tbd in Frameworks */,
+				BAA959EF1D9D135E00A8FFD2 /* Security.framework in Frameworks */,
+				BAA959ED1D9D135700A8FFD2 /* CoreTelephony.framework in Frameworks */,
+				BAA959EB1D9D134F00A8FFD2 /* CoreText.framework in Frameworks */,
+				BAA959E91D9D134800A8FFD2 /* libsqlite3.tbd in Frameworks */,
+				BAA959E71D9D133800A8FFD2 /* CoreVideo.framework in Frameworks */,
+				BAA959E51D9D132F00A8FFD2 /* CoreMedia.framework in Frameworks */,
+				BAA959E31D9D132300A8FFD2 /* OpenGLES.framework in Frameworks */,
+				BAA959E11D9D131B00A8FFD2 /* CoreMotion.framework in Frameworks */,
+				BAA959DF1D9D130B00A8FFD2 /* AVFoundation.framework in Frameworks */,
+				BAA959DD1D9D130400A8FFD2 /* SystemConfiguration.framework in Frameworks */,
+				BAA959DB1D9D127800A8FFD2 /* JavaScriptCore.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -93,6 +132,7 @@
 				BA3C9BF81D9D010B004477F9 /* lepaoquanTests */,
 				BA3C9C031D9D010B004477F9 /* lepaoquanUITests */,
 				BA3C9BDF1D9D010B004477F9 /* Products */,
+				BAA959D91D9D127800A8FFD2 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -109,14 +149,14 @@
 		BA3C9BE01D9D010B004477F9 /* lepaoquan */ = {
 			isa = PBXGroup;
 			children = (
+				BAA95A061D9D14B400A8FFD2 /* Root */,
+				BAA959FA1D9D14B400A8FFD2 /* Login */,
+				BAA959F41D9D14B400A8FFD2 /* Home */,
+				BAA95A001D9D14B400A8FFD2 /* Mine */,
 				BAF9643E1D9D041900A310C4 /* Common */,
-				BA3C9BE11D9D010B004477F9 /* AppDelegate.swift */,
-				BA3C9BE31D9D010B004477F9 /* ViewController.swift */,
-				BA3C9BE51D9D010B004477F9 /* Main.storyboard */,
+				BAA95A101D9D152200A8FFD2 /* Base */,
 				BA3C9BEB1D9D010B004477F9 /* Assets.xcassets */,
-				BA3C9BED1D9D010B004477F9 /* LaunchScreen.storyboard */,
 				BA3C9BF01D9D010B004477F9 /* Info.plist */,
-				BA3C9BE81D9D010B004477F9 /* lepaoquan.xcdatamodeld */,
 			);
 			path = lepaoquan;
 			sourceTree = "<group>";
@@ -139,6 +179,225 @@
 			path = lepaoquanUITests;
 			sourceTree = "<group>";
 		};
+		BAA959D91D9D127800A8FFD2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BAA959F21D9D137500A8FFD2 /* QuartzCore.framework */,
+				BAA959F01D9D136500A8FFD2 /* libz.1.2.5.tbd */,
+				BAA959EE1D9D135E00A8FFD2 /* Security.framework */,
+				BAA959EC1D9D135700A8FFD2 /* CoreTelephony.framework */,
+				BAA959EA1D9D134F00A8FFD2 /* CoreText.framework */,
+				BAA959E81D9D134800A8FFD2 /* libsqlite3.tbd */,
+				BAA959E61D9D133800A8FFD2 /* CoreVideo.framework */,
+				BAA959E41D9D132F00A8FFD2 /* CoreMedia.framework */,
+				BAA959E21D9D132300A8FFD2 /* OpenGLES.framework */,
+				BAA959E01D9D131B00A8FFD2 /* CoreMotion.framework */,
+				BAA959DE1D9D130B00A8FFD2 /* AVFoundation.framework */,
+				BAA959DC1D9D130400A8FFD2 /* SystemConfiguration.framework */,
+				BAA959DA1D9D127800A8FFD2 /* JavaScriptCore.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BAA959F41D9D14B400A8FFD2 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				BAA959F51D9D14B400A8FFD2 /* Controller */,
+				BAA959F61D9D14B400A8FFD2 /* Model */,
+				BAA959F71D9D14B400A8FFD2 /* Realm */,
+				BAA959F81D9D14B400A8FFD2 /* View */,
+				BAA959F91D9D14B400A8FFD2 /* WebApi */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		BAA959F51D9D14B400A8FFD2 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		BAA959F61D9D14B400A8FFD2 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		BAA959F71D9D14B400A8FFD2 /* Realm */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Realm;
+			sourceTree = "<group>";
+		};
+		BAA959F81D9D14B400A8FFD2 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		BAA959F91D9D14B400A8FFD2 /* WebApi */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = WebApi;
+			sourceTree = "<group>";
+		};
+		BAA959FA1D9D14B400A8FFD2 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				BAA959FB1D9D14B400A8FFD2 /* Controller */,
+				BAA959FC1D9D14B400A8FFD2 /* Model */,
+				BAA959FD1D9D14B400A8FFD2 /* Realm */,
+				BAA959FE1D9D14B400A8FFD2 /* View */,
+				BAA959FF1D9D14B400A8FFD2 /* WebApi */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		BAA959FB1D9D14B400A8FFD2 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		BAA959FC1D9D14B400A8FFD2 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		BAA959FD1D9D14B400A8FFD2 /* Realm */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Realm;
+			sourceTree = "<group>";
+		};
+		BAA959FE1D9D14B400A8FFD2 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		BAA959FF1D9D14B400A8FFD2 /* WebApi */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = WebApi;
+			sourceTree = "<group>";
+		};
+		BAA95A001D9D14B400A8FFD2 /* Mine */ = {
+			isa = PBXGroup;
+			children = (
+				BAA95A011D9D14B400A8FFD2 /* Controller */,
+				BAA95A021D9D14B400A8FFD2 /* Model */,
+				BAA95A031D9D14B400A8FFD2 /* Realm */,
+				BAA95A041D9D14B400A8FFD2 /* View */,
+				BAA95A051D9D14B400A8FFD2 /* WebApi */,
+			);
+			path = Mine;
+			sourceTree = "<group>";
+		};
+		BAA95A011D9D14B400A8FFD2 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		BAA95A021D9D14B400A8FFD2 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		BAA95A031D9D14B400A8FFD2 /* Realm */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Realm;
+			sourceTree = "<group>";
+		};
+		BAA95A041D9D14B400A8FFD2 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		BAA95A051D9D14B400A8FFD2 /* WebApi */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = WebApi;
+			sourceTree = "<group>";
+		};
+		BAA95A061D9D14B400A8FFD2 /* Root */ = {
+			isa = PBXGroup;
+			children = (
+				BAA95A111D9D154200A8FFD2 /* Controller */,
+				BAA95A121D9D154200A8FFD2 /* Model */,
+				BAA95A131D9D154200A8FFD2 /* Realm */,
+				BAA95A141D9D154200A8FFD2 /* View */,
+				BAA95A151D9D154200A8FFD2 /* WebApi */,
+			);
+			path = Root;
+			sourceTree = "<group>";
+		};
+		BAA95A101D9D152200A8FFD2 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				BAA95A161D9D155700A8FFD2 /* AppDelegate.swift */,
+				BAA95A171D9D155700A8FFD2 /* BaseViewController.swift */,
+				BA3C9BE51D9D010B004477F9 /* Main.storyboard */,
+				BA3C9BED1D9D010B004477F9 /* LaunchScreen.storyboard */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		BAA95A111D9D154200A8FFD2 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		BAA95A121D9D154200A8FFD2 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		BAA95A131D9D154200A8FFD2 /* Realm */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Realm;
+			sourceTree = "<group>";
+		};
+		BAA95A141D9D154200A8FFD2 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		BAA95A151D9D154200A8FFD2 /* WebApi */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = WebApi;
+			sourceTree = "<group>";
+		};
 		BAF9643E1D9D041900A310C4 /* Common */ = {
 			isa = PBXGroup;
 			children = (
@@ -158,7 +417,8 @@
 		BAF964491D9D041900A310C4 /* SwiftGenDefine */ = {
 			isa = PBXGroup;
 			children = (
-				BAF9644A1D9D041900A310C4 /* colors.txt */,
+				BAA959D31D9D102E00A8FFD2 /* Localizable.strings */,
+				BA1B3C741D9D0D0D00B3F5F6 /* colors.txt */,
 				BAF9644B1D9D041900A310C4 /* ColorsDefine.swift */,
 				BAF9644C1D9D041900A310C4 /* ImageDefine.swift */,
 				BAF9644D1D9D041900A310C4 /* LocalizableDefine.swift */,
@@ -257,6 +517,7 @@
 			knownRegions = (
 				en,
 				Base,
+				"zh-Hans",
 			);
 			mainGroup = BA3C9BD51D9D010B004477F9;
 			productRefGroup = BA3C9BDF1D9D010B004477F9 /* Products */;
@@ -276,9 +537,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				BA3C9BEF1D9D010B004477F9 /* LaunchScreen.storyboard in Resources */,
+				BAA959D61D9D102E00A8FFD2 /* Localizable.strings in Resources */,
 				BA3C9BEC1D9D010B004477F9 /* Assets.xcassets in Resources */,
-				BAF964581D9D041900A310C4 /* colors.txt in Resources */,
 				BA3C9BE71D9D010B004477F9 /* Main.storyboard in Resources */,
+				BA1B3C751D9D0D0D00B3F5F6 /* colors.txt in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -303,13 +565,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BA3C9BE41D9D010B004477F9 /* ViewController.swift in Sources */,
 				BAF964591D9D041900A310C4 /* ColorsDefine.swift in Sources */,
 				BAF9645C1D9D041900A310C4 /* StoryboardDefine.swift in Sources */,
 				BAF9645A1D9D041900A310C4 /* ImageDefine.swift in Sources */,
+				BAA95A181D9D155700A8FFD2 /* AppDelegate.swift in Sources */,
 				BAF9645B1D9D041900A310C4 /* LocalizableDefine.swift in Sources */,
-				BA3C9BEA1D9D010B004477F9 /* lepaoquan.xcdatamodeld in Sources */,
-				BA3C9BE21D9D010B004477F9 /* AppDelegate.swift in Sources */,
+				BAA95A191D9D155700A8FFD2 /* BaseViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -351,6 +612,7 @@
 				BA3C9BE61D9D010B004477F9 /* Base */,
 			);
 			name = Main.storyboard;
+			path = ..;
 			sourceTree = "<group>";
 		};
 		BA3C9BED1D9D010B004477F9 /* LaunchScreen.storyboard */ = {
@@ -359,6 +621,16 @@
 				BA3C9BEE1D9D010B004477F9 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		BAA959D31D9D102E00A8FFD2 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BAA959D41D9D102E00A8FFD2 /* Base */,
+			);
+			name = Localizable.strings;
+			path = ../..;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -577,19 +849,6 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
-
-/* Begin XCVersionGroup section */
-		BA3C9BE81D9D010B004477F9 /* lepaoquan.xcdatamodeld */ = {
-			isa = XCVersionGroup;
-			children = (
-				BA3C9BE91D9D010B004477F9 /* lepaoquan.xcdatamodel */,
-			);
-			currentVersion = BA3C9BE91D9D010B004477F9 /* lepaoquan.xcdatamodel */;
-			path = lepaoquan.xcdatamodeld;
-			sourceTree = "<group>";
-			versionGroupType = wrapper.xcdatamodel;
-		};
-/* End XCVersionGroup section */
 	};
 	rootObject = BA3C9BD61D9D010B004477F9 /* Project object */;
 }
