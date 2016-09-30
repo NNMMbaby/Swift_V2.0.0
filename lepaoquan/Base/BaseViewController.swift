@@ -19,7 +19,6 @@ class BaseViewController: UIViewController {
         
         self.lab.text = L10n.SignInForgotPasswdBtn.string
         
-        
     }
 
     override func didReceiveMemoryWarning() {

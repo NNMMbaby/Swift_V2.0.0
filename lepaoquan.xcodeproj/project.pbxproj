@@ -8,6 +8,15 @@
 
 /* Begin PBXBuildFile section */
 		BA1B3C751D9D0D0D00B3F5F6 /* colors.txt in Resources */ = {isa = PBXBuildFile; fileRef = BA1B3C741D9D0D0D00B3F5F6 /* colors.txt */; };
+		BA3319B31D9E1E2D006BB2A3 /* Lepaoquan-URL.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA3319B21D9E1E2D006BB2A3 /* Lepaoquan-URL.swift */; };
+		BA3319B51D9E1E3D006BB2A3 /* Lepaoquan-Notification.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA3319B41D9E1E3D006BB2A3 /* Lepaoquan-Notification.swift */; };
+		BA3319B71D9E1E63006BB2A3 /* Lepaoquan-Define.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA3319B61D9E1E63006BB2A3 /* Lepaoquan-Define.swift */; };
+		BA3319D21D9E2149006BB2A3 /* Array_Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA3319BB1D9E2149006BB2A3 /* Array_Extension.swift */; };
+		BA3319D41D9E2149006BB2A3 /* LepaoquanAlertView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA3319BD1D9E2149006BB2A3 /* LepaoquanAlertView.swift */; };
+		BA3319D61D9E2149006BB2A3 /* Font_Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA3319BF1D9E2149006BB2A3 /* Font_Extension.swift */; };
+		BA3319DA1D9E2149006BB2A3 /* LogoutCleanObj.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA3319C31D9E2149006BB2A3 /* LogoutCleanObj.swift */; };
+		BA3319DF1D9E2149006BB2A3 /* NSUserDefaultsExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA3319C81D9E2149006BB2A3 /* NSUserDefaultsExtension.swift */; };
+		BA3319E41D9E2149006BB2A3 /* UIImageExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA3319CD1D9E2149006BB2A3 /* UIImageExtension.swift */; };
 		BA3C9BE71D9D010B004477F9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BA3C9BE51D9D010B004477F9 /* Main.storyboard */; };
 		BA3C9BEC1D9D010B004477F9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BA3C9BEB1D9D010B004477F9 /* Assets.xcassets */; };
 		BA3C9BEF1D9D010B004477F9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BA3C9BED1D9D010B004477F9 /* LaunchScreen.storyboard */; };
@@ -54,6 +63,15 @@
 
 /* Begin PBXFileReference section */
 		BA1B3C741D9D0D0D00B3F5F6 /* colors.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = colors.txt; sourceTree = "<group>"; };
+		BA3319B21D9E1E2D006BB2A3 /* Lepaoquan-URL.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Lepaoquan-URL.swift"; sourceTree = "<group>"; };
+		BA3319B41D9E1E3D006BB2A3 /* Lepaoquan-Notification.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Lepaoquan-Notification.swift"; sourceTree = "<group>"; };
+		BA3319B61D9E1E63006BB2A3 /* Lepaoquan-Define.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Lepaoquan-Define.swift"; sourceTree = "<group>"; };
+		BA3319BB1D9E2149006BB2A3 /* Array_Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Array_Extension.swift; sourceTree = "<group>"; };
+		BA3319BD1D9E2149006BB2A3 /* LepaoquanAlertView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LepaoquanAlertView.swift; sourceTree = "<group>"; };
+		BA3319BF1D9E2149006BB2A3 /* Font_Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Font_Extension.swift; sourceTree = "<group>"; };
+		BA3319C31D9E2149006BB2A3 /* LogoutCleanObj.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LogoutCleanObj.swift; sourceTree = "<group>"; };
+		BA3319C81D9E2149006BB2A3 /* NSUserDefaultsExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NSUserDefaultsExtension.swift; sourceTree = "<group>"; };
+		BA3319CD1D9E2149006BB2A3 /* UIImageExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIImageExtension.swift; sourceTree = "<group>"; };
 		BA3C9BDE1D9D010B004477F9 /* lepaoquan.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = lepaoquan.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BA3C9BE61D9D010B004477F9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		BA3C9BEB1D9D010B004477F9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -81,6 +99,7 @@
 		BAA959F21D9D137500A8FFD2 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		BAA95A161D9D155700A8FFD2 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BAA95A171D9D155700A8FFD2 /* BaseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
+		BAB80F651D9D217400B1E05B /* Lepaoquan_Bridge_Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Lepaoquan_Bridge_Header.h; path = ../../Lepaoquan_Bridge_Header.h; sourceTree = "<group>"; };
 		BAF9644B1D9D041900A310C4 /* ColorsDefine.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ColorsDefine.swift; sourceTree = "<group>"; };
 		BAF9644C1D9D041900A310C4 /* ImageDefine.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageDefine.swift; sourceTree = "<group>"; };
 		BAF9644D1D9D041900A310C4 /* LocalizableDefine.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocalizableDefine.swift; sourceTree = "<group>"; };
@@ -398,9 +417,21 @@
 			path = WebApi;
 			sourceTree = "<group>";
 		};
+		BAB80F631D9D20EB00B1E05B /* Setting */ = {
+			isa = PBXGroup;
+			children = (
+				BAB80F651D9D217400B1E05B /* Lepaoquan_Bridge_Header.h */,
+				BA3319B61D9E1E63006BB2A3 /* Lepaoquan-Define.swift */,
+				BA3319B21D9E1E2D006BB2A3 /* Lepaoquan-URL.swift */,
+				BA3319B41D9E1E3D006BB2A3 /* Lepaoquan-Notification.swift */,
+			);
+			path = Setting;
+			sourceTree = "<group>";
+		};
 		BAF9643E1D9D041900A310C4 /* Common */ = {
 			isa = PBXGroup;
 			children = (
+				BAB80F631D9D20EB00B1E05B /* Setting */,
 				BAF9643F1D9D041900A310C4 /* Extension */,
 				BAF964491D9D041900A310C4 /* SwiftGenDefine */,
 			);
@@ -410,6 +441,12 @@
 		BAF9643F1D9D041900A310C4 /* Extension */ = {
 			isa = PBXGroup;
 			children = (
+				BA3319BD1D9E2149006BB2A3 /* LepaoquanAlertView.swift */,
+				BA3319C31D9E2149006BB2A3 /* LogoutCleanObj.swift */,
+				BA3319BB1D9E2149006BB2A3 /* Array_Extension.swift */,
+				BA3319BF1D9E2149006BB2A3 /* Font_Extension.swift */,
+				BA3319C81D9E2149006BB2A3 /* NSUserDefaultsExtension.swift */,
+				BA3319CD1D9E2149006BB2A3 /* UIImageExtension.swift */,
 			);
 			path = Extension;
 			sourceTree = "<group>";
@@ -565,12 +602,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BA3319D41D9E2149006BB2A3 /* LepaoquanAlertView.swift in Sources */,
 				BAF964591D9D041900A310C4 /* ColorsDefine.swift in Sources */,
 				BAF9645C1D9D041900A310C4 /* StoryboardDefine.swift in Sources */,
+				BA3319D61D9E2149006BB2A3 /* Font_Extension.swift in Sources */,
 				BAF9645A1D9D041900A310C4 /* ImageDefine.swift in Sources */,
 				BAA95A181D9D155700A8FFD2 /* AppDelegate.swift in Sources */,
+				BA3319DF1D9E2149006BB2A3 /* NSUserDefaultsExtension.swift in Sources */,
 				BAF9645B1D9D041900A310C4 /* LocalizableDefine.swift in Sources */,
+				BA3319D21D9E2149006BB2A3 /* Array_Extension.swift in Sources */,
 				BAA95A191D9D155700A8FFD2 /* BaseViewController.swift in Sources */,
+				BA3319DA1D9E2149006BB2A3 /* LogoutCleanObj.swift in Sources */,
+				BA3319B31D9E1E2D006BB2A3 /* Lepaoquan-URL.swift in Sources */,
+				BA3319B71D9E1E63006BB2A3 /* Lepaoquan-Define.swift in Sources */,
+				BA3319B51D9E1E3D006BB2A3 /* Lepaoquan-Notification.swift in Sources */,
+				BA3319E41D9E2149006BB2A3 /* UIImageExtension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -738,6 +784,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Jessica.lepaoquan;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = lepaoquan/Lepaoquan_Bridge_Header.h;
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
@@ -751,6 +798,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Jessica.lepaoquan;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = lepaoquan/Lepaoquan_Bridge_Header.h;
 				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
