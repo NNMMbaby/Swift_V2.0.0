@@ -14,8 +14,6 @@ class WalletViewController: UIViewController {
         super.viewDidLoad()
         
         self.title = "钱包"
-
-        self.view.backgroundColor = UIColor.blue
         
 
     }

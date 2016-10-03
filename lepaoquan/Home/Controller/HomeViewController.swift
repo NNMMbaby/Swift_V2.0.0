@@ -13,8 +13,6 @@ class HomeViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        self.view.backgroundColor = UIColor.brown
-
         self.title = "首页"
         
         

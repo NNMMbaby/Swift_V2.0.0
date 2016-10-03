@@ -16,8 +16,6 @@ class MineViewController: UIViewController {
         self.title = "我的"
 
 
-        self.view.backgroundColor = UIColor.yellow
-
     
     }
 

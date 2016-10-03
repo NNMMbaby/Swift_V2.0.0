@@ -16,7 +16,6 @@ class ActivityViewController: UIViewController {
 
         self.title = "活动"
 
-        self.view.backgroundColor = UIColor.red
     
     
     }
