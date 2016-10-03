@@ -8,14 +8,14 @@
 
 import UIKit
 
+public let NavHight: CGFloat = 64
+public let TabHight: CGFloat = 49
+public let ScreenWidth: CGFloat = UIScreen.main.bounds.size.width
+public let ScreenHeight: CGFloat = UIScreen.main.bounds.size.height
+public let ScreenBounds: CGRect = UIScreen.main.bounds
+
 struct LepaoquanDefine {
-    
-    
-    static let NavHight: CGFloat = 64
-    static let ScreenWidth: CGFloat = UIScreen.main.bounds.size.width
-    static let ScreenHeight: CGFloat = UIScreen.main.bounds.size.height
-    static let ScreenBounds: CGRect = UIScreen.main.bounds
-    
+
     
     /// Cache路径
     static let  LFBCachePath: String = NSSearchPathForDirectoriesInDomains(FileManager.SearchPathDirectory.cachesDirectory, FileManager.SearchPathDomainMask.userDomainMask, true).last!

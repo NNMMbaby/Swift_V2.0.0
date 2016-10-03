@@ -13,13 +13,73 @@ import CoreData
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
     var window: UIWindow?
-
+    var adViewController: ADViewController?
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+        
+//        setAppSubject()
+//        
+//        buildKeyWindow()
+        
+        window!.rootViewController = TabbarViewController()
+        
         return true
     }
 
+    
+    // MARK: - Public Method
+    private func buildKeyWindow() {
+        
+        window = UIWindow(frame: ScreenBounds)
+        window!.makeKeyAndVisible()
+        
+        let isFristOpen = UserDefaults.standard.object(forKey: "isFristOpenApp")
+        
+        if isFristOpen == nil {
+            window?.rootViewController = GuideViewController()
+            UserDefaults.standard.set("isFristOpenApp", forKey: "isFristOpenApp")
+            
+        } else {
+            
+            loadADRootViewController()
+            
+        }
+    }
+    
+    func loadADRootViewController() {
+        
+        adViewController = ADViewController()
+        
+        weak var tmpSelf = self
+        
+        ADViewController.finishLoadAD { (success) in
+            if success {
+                
+                tmpSelf!.window?.rootViewController = self.adViewController
+            }
+        }
+        
+    }
+    
+    // MARK:- privete Method
+    // MARK:主题设置
+    private func setAppSubject() {
+        
+        let tabBarAppearance = UITabBar.appearance()
+        tabBarAppearance.backgroundColor = UIColor.white
+        tabBarAppearance.backgroundColor = UIColor(red: 0, green: 0, blue: 0, alpha: 0)
+        
+//        let navBarnAppearance = UINavigationBar.appearance()
+        
+//        navBarnAppearance.translucent = false
+        
+    }
+    
+    
+    
+    
+    
     func applicationWillResignActive(_ application: UIApplication) {
         // Sent when the application is about to move from active to inactive state. This can occur for certain types of temporary interruptions (such as an incoming phone call or SMS message) or when the user quits the application and it begins the transition to the background state.
         // Use this method to pause ongoing tasks, disable timers, and invalidate graphics rendering callbacks. Games should use this method to pause the game.
